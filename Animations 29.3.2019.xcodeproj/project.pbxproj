@@ -54,14 +54,38 @@
 		7439DD4522509682001E100D /* Animations 29.3.2019 */ = {
 			isa = PBXGroup;
 			children = (
-				7439DD4622509682001E100D /* AppDelegate.swift */,
-				7439DD4822509682001E100D /* ViewController.swift */,
+				7439DD5A2252F729001E100D /* Supporting files */,
+				7439DD592252F715001E100D /* Controller */,
+				7439DD582252F709001E100D /* View */,
+			);
+			path = "Animations 29.3.2019";
+			sourceTree = "<group>";
+		};
+		7439DD582252F709001E100D /* View */ = {
+			isa = PBXGroup;
+			children = (
 				7439DD4A22509682001E100D /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7439DD592252F715001E100D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7439DD4822509682001E100D /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7439DD5A2252F729001E100D /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				7439DD4622509682001E100D /* AppDelegate.swift */,
 				7439DD4D22509684001E100D /* Assets.xcassets */,
 				7439DD4F22509684001E100D /* LaunchScreen.storyboard */,
 				7439DD5222509684001E100D /* Info.plist */,
 			);
-			path = "Animations 29.3.2019";
+			path = "Supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,7 +308,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3LF677RTA3;
-				INFOPLIST_FILE = "Animations 29.3.2019/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Animations 29.3.2019/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +326,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3LF677RTA3;
-				INFOPLIST_FILE = "Animations 29.3.2019/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Animations 29.3.2019/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
